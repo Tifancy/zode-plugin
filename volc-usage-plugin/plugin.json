@@ -1,0 +1,24 @@
+{
+  "name": "volc-coding-plan",
+  "version": "0.1.0",
+  "description": "Volcano Engine Coding Plan usage in the status line (HMAC-SHA256 signed).",
+  "author": {
+    "name": "ZSeven-W"
+  },
+  "ui": {
+    "statusLine": "./scripts/ui.js"
+  },
+  "permissions": {
+    "network": [
+      "open.volcengineapi.com",
+      "*.volcengineapi.com"
+    ],
+    "env": [
+      "VOLC_AK",
+      "VOLC_SK",
+      "VOLC_REGION",
+      "VOLC_SERVICE"
+    ],
+    "context": []
+  }
+}
